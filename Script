@@ -551,6 +551,7 @@ local function C_15()
 	end)	
 end;
 task.spawn(C_15);
+
 local function C_19()
 	local script = LMG2L["Draggable2_19"];
 	local player = game.Players.LocalPlayer	
@@ -571,5 +572,24 @@ local function C_19()
 	end)	
 end;
 task.spawn(C_19);
+-- КРЕСТИК (X) ДЛЯ ЗАКРЫТИЯ GUI
+local closeBtn = Instance.new("TextButton")
+closeBtn.Parent = LMG2L["Frame_2"]  -- или твой mainFrame
+closeBtn.Name = "CloseButton"
+closeBtn.Text = "X"
+closeBtn.TextColor3 = Color3.fromRGB(0, 0, 0)  -- ЧЁРНЫЙ
+closeBtn.TextSize = 18
+closeBtn.Font = Enum.Font.Legacy
+closeBtn.BackgroundTransparency = 1
+closeBtn.Size = UDim2.new(0, 25, 0, 25)
+closeBtn.Position = UDim2.new(1, -30, 0, 5)
+closeBtn.TextXAlignment = Enum.TextXAlignment.Center
+closeBtn.TextYAlignment = Enum.TextYAlignment.Center
+closeBtn.BorderSizePixel = 0
+closeBtn.AutoButtonColor = false
+
+closeBtn.MouseButton1Click:Connect(function()
+    LMG2L["ScreenGui_1"]:Destroy()  -- Удаляем весь GUI
+end)
 
 return LMG2L["ScreenGui_1"], require;
