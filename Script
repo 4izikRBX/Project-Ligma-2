@@ -437,7 +437,7 @@ local function C_14()
 	    	
 	    -- Бэкдор ищется ТОЛЬКО здесь, при первом нажатии EXE	
 	    if not backdoorRemote then	
-	        button.Text = "SEARCHING..."	
+	        button.Text = "EXE"
 	        backdoorRemote = findBackdoor()  -- <-- ПОИСК ЗДЕСЬ	
 	        if not backdoorRemote then	
 	            button.Text = "EXE"	
@@ -536,7 +536,7 @@ local function C_15()
 	        return	
 	    end	
 	    	
-	    button.Text = "SEARCHING..."	
+	    button.Text = "EXE"	
 	    local backdoor = findBackdoor()	
 	    	
 	    if backdoor then	
